@@ -7,6 +7,6 @@ import androidx.room.PrimaryKey
 class Note(val title:String, val des:String)
 {
     @PrimaryKey(autoGenerate = true)
-    val id = 0
+    var id = 0
 
 }
